@@ -11,7 +11,16 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
 
-    public static final RegistryObject<Item> martindrite = ITEMS.register("martindrite",
+    public static final RegistryObject<Item> MARTINDRITE = ITEMS.register("martindrite",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SHINY_SHAFT = ITEMS.register("shiny_shaft",
             () -> new Item(new Item.Properties()));
 
 
